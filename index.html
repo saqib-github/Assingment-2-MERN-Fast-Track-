@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Assignment-2 JS</title>
+</head>
+
+<body>
+
+        <div>
+            <h1 id="heading" class="text-center p-5 text-white">Assignment No. 2</h1>
+        </div>
+        
+        <h3 class="text-center p-4 text-white">Concatenation Two Strings</h3>
+        
+        <div class="d-flex justify-content-center">
+
+            <!-- String concatenation -->
+            
+            <div class="col-xs-3">
+                <input class="form-control bg-dark text-white" id="string1" type="text" placeholder="Enter String One">
+              </div>
+              <div class="col-xs-3">
+                <input class="form-control bg-dark text-white" id="string2" type="text" placeholder="Enter Second String ">
+              </div>
+                <button class="btn btn-info" onclick="concatBtn();">Enter</button>
+                <div class="col-xs-3">
+                    <input class="form-control bg-dark text-white" id="addString" type="text">
+                  </div>
+            </div>
+
+            <!-- Split Emails -->
+            <h3 class="text-center p-4 text-white">Separated by Semicolon multiple Strings</h3>
+            <div class="d-flex justify-content-center">
+                <div class="col-xs-3">
+                    <input class="form-control  bg-dark text-white" id="splitString" type="text" placeholder="Enter multiple Strings including ;">
+                  </div>
+                <button class="btn btn-info" onclick="splitBtn();">Enter</button>
+                <div class="col-xs-3">
+                    <input class="form-control  bg-dark text-white" id="finalsplitString" type="text">
+                  </div>
+            </div>
+
+            <!--Find Occurances  -->
+            <h3 class="text-center p-4 text-white"> Enter Array and integer in array then Check Occurances of that integer</h3>
+            <div class="d-flex justify-content-center">
+                <div class="col-xs-3">
+                    <input class="form-control  bg-dark text-white" id="array" type="text"  placeholder="Enter array in format: [ 0, 0, 1,]">
+                  </div>
+                  <div class="col-xs-3">
+                    <input class="form-control  bg-dark text-white" id="integer" type="text" placeholder="Enter Value to be found">
+                  </div>
+                <button class="btn btn-info"  onclick="occurence();">Enter</button>
+                <div class="col-xs-3">
+                    <input class="form-control  bg-dark text-white" id="valueOccur" type="text">
+                  </div>
+            </div>
+
+
+    <!--Include Javascript -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
